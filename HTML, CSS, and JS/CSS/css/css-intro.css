@@ -1,0 +1,49 @@
+/*
+    Comments in CSS are used
+    like this.
+*/
+
+/*
+    CSS Selectors
+
+        * { }           -   Universal
+        p { }           -   Type/Tag
+        .className { }  -   Class
+        #idName { }     -   Id
+        h1, a { }       -   Multi
+        h3, #idName { } -   Multi
+        li > a { }      -   Child
+        p a { }         -   Descendant
+        h1 + p { }      -   Sibling/Adjacent
+*/
+
+div {
+    border: 1px solid;
+    padding: 5px;
+    background-color:slategray;
+}
+
+p {
+    font-family: Arial;
+    color: blue;
+}
+
+#inheritance {
+    color: red;
+}
+
+.main-header {
+    border-radius: 5px;
+}
+
+div > a:visited {
+    color: purple;
+}
+
+div > a:hover {
+    color: green;
+}
+
+div > a:active {
+    color: salmon;
+}

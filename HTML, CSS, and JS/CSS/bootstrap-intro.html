@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bootstrap Intro</title>
+
+    <!-- Bootstrap CDN stylesheet link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <style>
+        .jumbotron {
+            height: 725px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 
+        What is Bootstrap?
+
+            Bootstrap is a free front-end framework for faster and easier
+            web development. It includes HTML and CSS based design templates
+            for typography, forms, buttons, tables, navigation, modals, 
+            image carousels, and many other components/features. Additionally,
+            it has optional JavaScript, Popper.js, and jQuery libraries that
+            can be leveraged.
+            
+            One of the main benefits to using Bootstrap is its ability to 
+            facilitate the creation of websites that are responsive to the
+            many different screen sizes that users could visiting our site
+            from.
+
+        What is the Bootstrap CDN?
+
+            BootstrapCDN is a public content delivery network. Users of
+            the Bootstrap can load CSS and JavaScript remotely from a
+            global network of servers. This way users can fetch the data
+            with low latency regardless of their geographic location.
+    -->
+
+    <!-- Built-in classes for styling -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+                <p>
+                    This is the first column. It takes up 2 of the 12
+                    provided grid columns.
+                </p>
+            </div>
+            <div class="col-md-8">
+                <div class="jumbotron">
+                    <h1 class="display-4">Hello, world!</h1>
+                    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                    <hr class="my-4">
+                    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <p>
+                    This is the third column, it also takes up 2 columns
+                    of the 12 grid columns on the screen.
+                </p>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <p>Row 2</p>
+        </div>
+    </div>
+
+    <!-- 
+        Unobstrusive JavaScript
+
+            Placing script tags at the bottom of the body allows the browser to render
+            our HTML and CSS before attempting to fetch the JS scripts from the Bootstrap
+            CDN server. 
+            
+            The advantage of this is that our users will not have to wait nearly as long
+            to see content rendered on their screen.
+    -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>

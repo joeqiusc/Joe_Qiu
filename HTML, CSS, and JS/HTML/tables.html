@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Basics: Tables</title>
+</head>
+<body>
+    <!--
+        HTML Tables
+
+            An HTML table is defined using the <table> tag. Each table
+            row is defined with the <tr> tag. BY default, table
+            heading <th> values are bold and centered within their cell.
+            A table cell is defined using the <td> tag.
+
+            Other tags available:
+                <thead>
+                <tbody>
+    -->
+
+    <!-- 
+        Technically, we should not manipulate styling here, we would
+        do this within a CSS style block or a separate CSS file.
+    -->
+    <h1>Transactions</h1>
+
+    <table border="2" bgcolor="#efefef">
+        <tr>
+            <th width="150">Date</th>
+            <th>Description</th>
+            <th width="100">Amount</th>
+            <th width="100">Balance</th>
+        </tr>
+        <tr>
+            <td>09/10/2019</td>
+            <td>Revature - OCA Reimbursement</td>
+            <td>$250.00</td>
+            <td>$470.05</td>
+        </tr>
+        <tr>
+            <td>09/08/2019</td>
+            <td>Gas</td>
+            <td>($40.00)</td>
+            <td>$220.05</td>
+        </tr>
+    </table>
+</body>
+
+</html>

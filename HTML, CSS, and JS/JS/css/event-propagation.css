@@ -1,0 +1,21 @@
+body {
+    margin: 5rem 16rem;
+}
+
+div {
+    padding: 1rem;
+    color: white;
+    text-align: center;
+}
+
+#outer {
+    background-color: red;
+}
+
+#middle {
+    background-color: blue;
+}
+
+#inner {
+    background-color: green;
+}
