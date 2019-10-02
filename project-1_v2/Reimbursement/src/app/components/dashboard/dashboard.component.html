@@ -1,0 +1,40 @@
+
+<!-- <h2>{{authService.currentUser.username}}</h2> -->
+
+<div class="create-reimbursement-container">
+    <h5>Create Reimbursement</h5>
+    <br/>
+    <form id="create-reimbursement-form" class="form">
+        <div>
+            <input type="number" name="amount" placeholder="amount" />
+        </div>
+        <br/>
+        <div>
+            <textarea id="description" placeholder="description"></textarea>
+        </div>
+        <br/>
+        <div>
+           Upload Receipt <input type="file" name="pic" accept="image/*" />
+        </div>
+        <br/>
+        <div>
+            <select id="reimbursement-types" name="reimbursement-types">
+                <option value="1">lodging</option>
+                <option value="2">travel</option>
+                <option value="3">food</option>
+                <option value="4">other</option>
+            </select>
+        </div>
+        <br/>
+        <div>
+
+        </div>
+        
+        <input type="submit" name="submit" id="submit-reimbursement" />
+    </form>
+</div>
+
+<br/>
+<button id="see-myreimbursements">See My Reimbursements</button>
+<br/><br/>
+<button id="see-all-reimbursements">Manager See All Reimbursements</button>

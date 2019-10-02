@@ -1,0 +1,41 @@
+<!--
+    Greeting
+
+        form
+
+            link
+-->
+
+<h2>Hello, ${authService.currentUser.username}</h2>
+
+<div class="create-reimbursement-container">
+    <h5>Create Reimbursement</h5>
+    <form id="create-reimbursement-form" class="form">
+        <div>
+            <input type="number" name="amount" placeholder="amount" />
+        </div>
+        <div>
+            <textarea id="description" placeholder="description"></textarea>
+        </div>
+        <div>
+           Upload Receipt <input type="file" name="pic" accept="image/*" />
+        </div>
+        <div>
+            <select id="reimbursement-types" name="reimbursement-types">
+                <option value="1">lodging</option>
+                <option value="2">travel</option>
+                <option value="3">food</option>
+                <option value="4">other</option>
+            </select>
+        </div>
+        <div>
+
+        </div>
+        
+        <input type="submit" name="submit" id="submit-reimbursement" />
+    </form>
+</div>
+
+<br><br>
+
+<button id="see-all-reimbursements">See All Reimbursements</button>
