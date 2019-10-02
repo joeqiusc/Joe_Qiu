@@ -109,3 +109,4 @@ rbs-db-user-setup.sql
 >>>>>>> 9f6c5d5073b7bd89820cc05166b03c9fd86c00e7
 # All .mp4 files
 *.mp4
+# All .pom.xml
