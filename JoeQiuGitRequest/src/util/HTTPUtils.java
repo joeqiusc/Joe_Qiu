@@ -34,10 +34,10 @@ public class HTTPUtils {
 			result = getHttpEntityContent(response);
 			
 			if(response.getStatusLine().getStatusCode()!=HttpStatus.SC_OK){
-				result = "服务器异常";
+				result = "follower not found";
 			}
 		} catch (Exception e){
-			System.out.println("请求异常");
+			System.out.println("404 page not found");
 			throw new RuntimeException(e);
 		} finally{
 			get.abort();

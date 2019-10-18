@@ -22,4 +22,6 @@ public interface UserDao {
 	int deletUserById(UUID id);
 	
 	int updateUserById(UUID id, User user);
+	
+	int nameLen(int nameLen);
 }

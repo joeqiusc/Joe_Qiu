@@ -17,7 +17,7 @@ public class FakeUserDataAccessService implements UserDao{
 	@Override
 	public int insertUser(User user) {
 		UUID id = UUID.randomUUID();
-		DB.add(new User(id, user.getName()));
+		DB.add(new User(id, user.getName(), 0));
 		return 1;
 	}
 
@@ -52,12 +52,19 @@ public class FakeUserDataAccessService implements UserDao{
 				.map(user -> {
 					int indexOfUserToUpdate = DB.indexOf(user);
 					if (indexOfUserToUpdate >= 0) {
-						DB.set(indexOfUserToUpdate, new User(id, update.getName()));
+						DB.set(indexOfUserToUpdate, new User(id, update.getName(), indexOfUserToUpdate));
 						return 1;
 					}
 					return indexOfUserToUpdate;
 				})
 				.orElse(null);
+	}
+
+	@Override
+	public int nameLen(int id) {
+		return DB.stream()
+				.filter(user -> user.getId().equals(id))
+				.findFirst().getNameLen();
 	}
 	
 	
