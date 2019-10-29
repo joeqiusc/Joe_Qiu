@@ -60,14 +60,6 @@ public class FakeUserDataAccessService implements UserDao{
 				.orElse(null);
 	}
 
-	@Override
-	public int nameLen(int id) {
-		return DB.stream()
-				.filter(user -> user.getId().equals(id))
-				.findFirst().getNameLen();
-	}
-	
-	
 
 	
 }

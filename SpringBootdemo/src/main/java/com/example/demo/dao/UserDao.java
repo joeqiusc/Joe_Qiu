@@ -23,5 +23,5 @@ public interface UserDao {
 	
 	int updateUserById(UUID id, User user);
 	
-	int nameLen(int nameLen);
+	
 }
