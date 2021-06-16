@@ -1,7 +1,0 @@
-db.createUser(
-   {
-     user: "Joe",
-     pwd: "password",
-     roles: [ "readWrite", "dbAdmin" ]
-   }
-);
