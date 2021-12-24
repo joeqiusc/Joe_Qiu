@@ -60,10 +60,7 @@ function App() {
           <Route path="/login">
             <Login />
           </Route>
-          <Route path="/checkout">
-<<<<<<< HEAD
-            <Checkout />
-          </Route>
+          <Route path="/checkout"><<<<<<< HEAD<Checkout /></Route>
           <Route path="/">
 =======
             <Header />
