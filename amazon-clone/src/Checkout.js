@@ -3,11 +3,6 @@ import "./Checkout.css";
 import CheckoutProduct from "./CheckoutProduct";
 import { useStateValue } from "./StateProvider";
 import Subtotal from "./Subtotal";
-<<<<<<< HEAD
-import CheckoutProduct from "./CheckoutProduct";
-import { useStateValue } from "./StateProvider";
-=======
->>>>>>> ab46f2a7efbce4d2a4c695c4624e61ab36245ff9
 
 function Checkout() {
   const [{ basket, user }, dispatch] = useStateValue();
@@ -20,23 +15,8 @@ function Checkout() {
           alt=""
         />
         <div>
-<<<<<<< HEAD
-          <h3>Hello{user?.email}</h3>
-          <h2 className="checkout__title">Your shopping Basket</h2>
-
-          {basket.map((item) => (
-            <CheckoutProduct
-              id={item.id}
-              title={item.title}
-              image={item.image}
-              price={item.price}
-              rating={item.rating}
-            />
-          ))}
-=======
           <h3>Hello, {user?.email}</h3>
           <h2 className="checkout__title">Your Shopping Basket</h2>
->>>>>>> ab46f2a7efbce4d2a4c695c4624e61ab36245ff9
         </div>
         {basket.map((item) => (
           <CheckoutProduct

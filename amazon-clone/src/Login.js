@@ -10,17 +10,6 @@ function Login() {
 
   const signIn = (e) => {
     e.preventDefault();
-<<<<<<< HEAD
-
-    auth
-      .signInWithEmailAndPassword(email, password)
-      .then((auth) => {
-        history.push("/");
-      })
-      .catch((error) => alert(error.message));
-  };
-
-=======
     auth
       .signInWithEmailAndPassword(email, password)
       .then((auth) => {
@@ -28,17 +17,12 @@ function Login() {
       })
       .catch((error) => alert(error.message));
   };
->>>>>>> ab46f2a7efbce4d2a4c695c4624e61ab36245ff9
   const register = (e) => {
     e.preventDefault();
 
     auth
       .createUserWithEmailAndPassword(email, password)
       .then((auth) => {
-<<<<<<< HEAD
-        // it successfully created a new user with email and password
-=======
->>>>>>> ab46f2a7efbce4d2a4c695c4624e61ab36245ff9
         if (auth) {
           history.push("/");
         }
@@ -52,15 +36,8 @@ function Login() {
         <img
           className="login__logo"
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1024px-Amazon_logo.svg.png"
-<<<<<<< HEAD
-          alt=""
         />
       </Link>
-
-=======
-        />
-      </Link>
->>>>>>> ab46f2a7efbce4d2a4c695c4624e61ab36245ff9
       <div className="login__container">
         <h1>Sign-in</h1>
 
@@ -78,10 +55,6 @@ function Login() {
             value={password}
             onChange={(e) => setPassword(e.target.value)}
           />
-<<<<<<< HEAD
-
-=======
->>>>>>> ab46f2a7efbce4d2a4c695c4624e61ab36245ff9
           <button
             type="submit"
             onClick={signIn}
@@ -90,10 +63,6 @@ function Login() {
             Sign In
           </button>
         </form>
-<<<<<<< HEAD
-
-=======
->>>>>>> ab46f2a7efbce4d2a4c695c4624e61ab36245ff9
         <p>
           By signing-in you agree to the AMAZON FAKE CLONE Conditions of Use &
           Sale. Please see our Privacy Notice, our Cookies Notice and our
@@ -101,11 +70,7 @@ function Login() {
         </p>
 
         <button onClick={register} className="login__registerButton">
-<<<<<<< HEAD
-          Create your Amazon Account
-=======
           Create your amazon account
->>>>>>> ab46f2a7efbce4d2a4c695c4624e61ab36245ff9
         </button>
       </div>
     </div>

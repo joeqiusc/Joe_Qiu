@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="767982ba-4453-4198-b7d2-4ad44fc629e2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../amazon-clone/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../amazon-clone/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amazon-clone/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../amazon-clone/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amazon-clone/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../amazon-clone/src/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amazon-clone/src/Checkout.css" beforeDir="false" afterPath="$PROJECT_DIR$/../amazon-clone/src/Checkout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amazon-clone/src/Checkout.js" beforeDir="false" afterPath="$PROJECT_DIR$/../amazon-clone/src/Checkout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amazon-clone/src/CheckoutProduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/../amazon-clone/src/CheckoutProduct.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amazon-clone/src/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/../amazon-clone/src/Header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amazon-clone/src/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/../amazon-clone/src/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amazon-clone/src/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/../amazon-clone/src/Home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amazon-clone/src/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/../amazon-clone/src/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amazon-clone/src/Login.css" beforeDir="false" afterPath="$PROJECT_DIR$/../amazon-clone/src/Login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amazon-clone/src/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/../amazon-clone/src/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amazon-clone/src/Product.css" beforeDir="false" afterPath="$PROJECT_DIR$/../amazon-clone/src/Product.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amazon-clone/src/Product.js" beforeDir="false" afterPath="$PROJECT_DIR$/../amazon-clone/src/Product.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amazon-clone/src/StateProvider.js" beforeDir="false" afterPath="$PROJECT_DIR$/../amazon-clone/src/StateProvider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amazon-clone/src/Subtotal.css" beforeDir="false" afterPath="$PROJECT_DIR$/../amazon-clone/src/Subtotal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amazon-clone/src/Subtotal.js" beforeDir="false" afterPath="$PROJECT_DIR$/../amazon-clone/src/Subtotal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amazon-clone/src/firebase.js" beforeDir="false" afterPath="$PROJECT_DIR$/../amazon-clone/src/firebase.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amazon-clone/src/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../amazon-clone/src/reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amazon-clone/src/serviceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/../amazon-clone/src/serviceWorker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amazon-clone/src/setupTests.js" beforeDir="false" afterPath="$PROJECT_DIR$/../amazon-clone/src/setupTests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-task-tracker-project" beforeDir="false" afterPath="$PROJECT_DIR$/../react-task-tracker-project" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="26aCGacu1JZmOiLeC3MofbVhjpM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration name="SpringbackendApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springbackend" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springbackend.SpringbackendApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="767982ba-4453-4198-b7d2-4ad44fc629e2" name="Changes" comment="" />
+      <created>1647652219293</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647652219293</updated>
+      <workItem from="1647652220829" duration="2832000" />
+      <workItem from="1648083254247" duration="97000" />
+      <workItem from="1648252430132" duration="1466000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

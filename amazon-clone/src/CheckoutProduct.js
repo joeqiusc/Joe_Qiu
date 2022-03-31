@@ -15,11 +15,7 @@ function CheckoutProduct({ id, image, title, price, rating, hideButton }) {
 
   return (
     <div className="checkoutProduct">
-<<<<<<< HEAD
-      <img className="checkoutProduct__image" src={image} alt="" />
-=======
       <img className="checkoutProduct__image" src={image} />
->>>>>>> ab46f2a7efbce4d2a4c695c4624e61ab36245ff9
 
       <div className="checkoutProduct__info">
         <p className="checkoutProduct__title">{title}</p>
